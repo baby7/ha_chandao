@@ -8,7 +8,7 @@
 
 ```
 sensor:
-  - platform: chandao
+  - platform: ha_chandao
     name: '你的项目名'
     url: '禅道地址'
     username: '用户名'
@@ -16,5 +16,5 @@ sensor:
     project_id: '项目id'
 ```
 
-* url : 禅道地址，例如https://www.test.com:1234，不需要加/zentao
+* url : 禅道地址，例如[https://www.test.com:1234](https://www.test.com:1234) ，不需要加/zentao
 * project_id : 项目id，在项目的任务界面，可以看到地址栏后面有个```project-task-999.html```这样的地址，取后面的数字即可
